@@ -16,9 +16,9 @@ public class BunTest {
     @Parameterized.Parameters(name = "{0}, {1}")
     public static Object[][] bunData() {
         return new Object[][]{
-                {"",13.1},
-                {null,111.1},
-                {" ",77.9},
+                {"",13.1f},
+                {null,111.1f},
+                {" ",77.9f},
                 {"MegaKrutayaСОченьНевероятноДлиннымНазваниемСостоящихИзБуквLatinicaИКириллицаИ666Цифр",0.1f},
                 {"Булка=из-Spec_simv!ov^:", 333.9f},
                 {"Проверка цены равной ноль", 0},
